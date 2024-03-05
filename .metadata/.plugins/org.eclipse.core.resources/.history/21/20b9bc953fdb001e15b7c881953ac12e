@@ -14,10 +14,6 @@ public class Aluno {
 		if (notaFinal() >= 60.0) {
 			System.out.printf("Nota Final = %.2f%n", notaFinal());
 			System.out.println("APROVADO");
-		} else {
-			System.out.printf("Nota Final = %.2f%n", notaFinal());
-			System.out.println("REPROVADO");
-			System.out.printf("FALTOU %.2f PONTOS", (60.0 - notaFinal()));
 		}
 	}
 	
