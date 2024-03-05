@@ -10,12 +10,4 @@ public class Aluno {
 		return nota1 + nota2 + nota3;
 	}
 	
-	public void avaliacao() {
-		if (notaFinal() >= 60.0) {
-			System.out.printf("Nota Final = %.2f%n", notaFinal());
-			System.out.println("APROVADO");
-		}
-	}
-	
-	
 }

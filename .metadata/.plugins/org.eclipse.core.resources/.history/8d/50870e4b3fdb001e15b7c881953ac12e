@@ -13,7 +13,6 @@ public class Aluno {
 	public void avaliacao() {
 		if (notaFinal() >= 60.0) {
 			System.out.printf("Nota Final = %.2f%n", notaFinal());
-			System.out.println("APROVADO");
 		}
 	}
 	
